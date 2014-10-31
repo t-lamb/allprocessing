@@ -32,3 +32,10 @@ void draw() {
 
   //ellipse(concordance.get("ladies"), concordance.get("the"), 10, 10);
 }
+
+//some notes from mimi
+  // Loop through words
+  // When you find "must", you check to see if i+1 equal to not
+  
+  if(words[i].equals("must") && words[i+1].equals("not")) {
+   concordance.increment("must not"); 
